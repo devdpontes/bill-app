@@ -1,0 +1,42 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px; }
+
+h1, .h1 {
+  font-size: 24px; }
+
+h2, .h2 {
+  font-size: 22px; }
+
+h3, .h3 {
+  font-size: 20px; }
+
+h4, .h4, .bill-container .content-header {
+  font-size: 18px; }
+
+.bill-container {
+  margin: 40px; }
+  .bill-container .content-section {
+    margin-bottom: 50px; }
+  .bill-container .value {
+    display: table-cell;
+    text-align: right; }
+  .bill-container .row {
+    margin-top: 10px; }
+  .bill-container .item {
+    display: table-cell;
+    width: 100%; }
+  .bill-container .calls-table {
+    width: 100%;
+    text-align: left; }
+    .bill-container .calls-table td {
+      padding-top: 5px;
+      padding-bottom: 5px; }
+    .bill-container .calls-table .last {
+      text-align: right; }
+
+.disclaimer {
+  font-size: 14px; }
+
+.emphasis {
+  font-weight: bold; }

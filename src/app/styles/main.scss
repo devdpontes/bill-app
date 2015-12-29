@@ -1,0 +1,54 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+}
+h1, .h1 {
+  font-size: 24px;
+}
+h2, .h2 {
+  font-size: 22px;
+}
+h3, .h3 {
+  font-size: 20px;
+}
+h4, .h4 {
+  font-size: 18px;
+}
+.bill-container {
+  margin: 40px;
+
+  .content-header {
+    @extend .h4;
+  }
+  .content-section {
+    margin-bottom: 50px;
+  }
+  .value {
+    display: table-cell;
+    text-align: right;
+  }
+  .row {
+    margin-top: 10px;
+  }
+  .item {
+    display: table-cell;
+    width: 100%;
+  }
+  .calls-table {
+    width: 100%;
+    text-align: left;
+    td {
+      padding-top: 5px;
+      padding-bottom: 5px;
+    }
+    .last {
+      text-align: right;
+    }
+  }
+}
+.disclaimer {
+  font-size: 14px;
+}
+.emphasis {
+  font-weight: bold;
+}
