@@ -61,7 +61,6 @@ class CallCharges extends Component {
 }
 
 class Skystore extends Component {
-  // Render bill view
   render() {
     let data = this.props.data;
 

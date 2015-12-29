@@ -30,7 +30,7 @@ billStore.dispatchToken = AppDispatcher.register(payload => {
 
   switch(action.actionType) {
 
-    // Respond to RECEIVE_DATA action
+    // Respond to LOAD_DATA action
     case BillConstants.LOAD_DATA:
       billStore.setData(action.data);
       break;
