@@ -4,7 +4,7 @@
   "description": "Sky test",
   "main": "index.js",
   "scripts": {
-    "start": "npm run dev-build && npm run server",
+    "start": "npm install && npm run dev-build && npm run server",
     "test": "jest",
     "dev-build": "webpack -d && npm run build-css",
     "watch": "webpack -d --watch",
